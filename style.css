@@ -1,0 +1,359 @@
+body {
+  background-color: #F2F2F2;
+  font-family: Roboto;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.light_gley,
+.perfect_pairing-card a:visited {
+  color: #8593A6;
+}
+
+.title {
+  color: #4F5A68;
+}
+
+.wrapper>div,
+footer {
+  background-color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+.padding_box {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.padding_box_top {
+  padding-top: 24px;
+}
+
+.padding_box_top_12 {
+  padding-top: 12px;
+}
+
+.description {
+  font-size: 10px;
+}
+
+.line_height_25 {
+  line-height: 25px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.title_main {
+  max-width: 560px;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  background-color: #fff;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+/* logo */
+.main,
+.logo_container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.logo {
+  display: block;
+  width: 143px;
+  height: 24px;
+  background: url(./img/brand.png) no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+
+.main {
+  flex: auto;
+}
+
+/* order */
+.blue_text,
+.perfect_pairing-card a:hover,
+.perfect_pairing-card a:focus {
+  color: #0052E2;
+}
+
+.order_details {
+  padding-top: 14px;
+  padding-bottom: 24px;
+}
+
+.order_details>p {
+  margin-bottom: 5px;
+}
+
+.order_product {
+  padding: 24px 0 11px;
+  border-bottom: 2px solid #F2F2F4;
+}
+
+.order_product-img {
+  background: url(./img/iphone_8.jpg) no-repeat;
+  width: 48px;
+  height: 72px;
+  background-size: contain;
+  background-position: center;
+}
+
+.order_product-description {
+  padding: 0;
+  padding-top: 11px;
+  padding-bottom: 24px;
+}
+
+.order_product-details {
+  font-size: 14px;
+}
+
+.product_color-img {
+  box-sizing: border-box;
+  padding-top: 4px;
+  width: 12px;
+  height: 12px;
+  background-color: #F3E4D9;
+  border-radius: 6px
+}
+
+.order_product-color>p {
+  padding-left: 8px;
+}
+
+.product_qty {
+  padding-left: 17px
+}
+
+.value_price p {
+  font-size: 24px
+}
+
+.price_components p:last-child {
+  padding-top: 16px
+}
+
+.price_components {
+  width: 171px;
+}
+
+.price_components>div>p:first-child {
+  margin-bottom: 5px;
+}
+
+.total_price p {
+  text-align: right
+}
+
+.total_price p:last-child {
+  padding-top: 8px
+}
+
+.perfect_pairing-title p:first-child {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.img_card_1 {
+  background: url(./img/beats_1.jpg) no-repeat;
+}
+
+.img_card_2 {
+  background: url(./img/beats_2.jpg) no-repeat;
+}
+
+.perfect_pairing-img {
+  width: 272px;
+  height: 160px;
+  background-size: contain;
+  background-position: center;
+  box-sizing: border-box;
+  border: 1px solid #F2F2F4;
+  border-radius: 4px;
+}
+
+.show_all {
+  height: 25px;
+}
+
+.show_all a img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  box-sizing: border-box
+}
+
+/* invitation */
+.invitation {
+  max-width: 416px;
+  border: 1px solid #F0F3F7;
+  border-radius: 4px;
+}
+
+.invitation_accept {
+  width: 216px;
+  box-sizing: border-box;
+  padding-left: 24px;
+}
+
+.invitation_photo {
+  width: 200px;
+  height: 205px;
+  box-sizing: border-box;
+  background: url(./img/avatar.png) no-repeat;
+}
+
+.invitation_accept-details {
+  margin-bottom: 86px;
+}
+
+.invitation_accept-details p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.invitation_accept-button {
+  background-color: #0052E2;
+  border-radius: 5px;
+  height: 32px;
+}
+
+.invitation_accept-button p {
+  padding: 0 27px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.invitation_wish {
+  padding-top: 15px
+}
+
+/* review feed_back */
+.review {
+  padding-top: 22px;
+}
+
+.review_container {
+  max-width: 272px;
+}
+
+.review_card {
+  width: 128px;
+  height: 105px;
+  border-radius: 6px;
+  box-sizing: border-box
+}
+
+.review_card:hover,
+.review_card:active {
+  background-color: #F5F5F7;
+}
+
+.img_sad {
+  background: url(./img/sad.svg) no-repeat;
+}
+
+.img_happy {
+  background: url(./img/happy.svg) no-repeat;
+}
+
+.review_card-img {
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-position: center;
+}
+
+.review_card>div {
+  margin: 0 auto
+}
+
+.review_card-details p {
+  text-align: center;
+  padding: 8px
+}
+
+/* footer */
+footer {
+  padding: 16px 60px 24px;
+  border-top: 2px solid #F2F2F4;
+}
+
+footer p:first-child {
+  margin-bottom: 16px;
+}
+
+/* @media */
+@media (max-width: 664px) {
+  .perfect_pairing-card {
+    margin-bottom: 50px;
+  }
+
+  .flex_center {
+    justify-content: center;
+    flex-wrap: wrap
+  }
+}
+
+@media (max-width: 480px) {
+  .main,
+  .logo_container,
+  footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .invitation_accept {
+    width: auto;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .invitation_accept-details {
+    margin-bottom: 16px;
+  }
+
+  .invitation {
+    width: 200px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
